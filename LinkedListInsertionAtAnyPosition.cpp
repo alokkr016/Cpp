@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 struct node
@@ -10,32 +10,27 @@ struct node
 
 node *head;
 
-
-void insert(int n, int pos){
+void insert(int n, int pos)
+{
     node *temp2 = new node();
     temp2->data = n;
     temp2->next = NULL;
 
-    if(pos == 1){
+    if (pos == 1)
+    {
         temp2->next = head;
         head = temp2;
-        
+        return;
     }
-    else{
-        node *temp1 = head;
-        /* code */
-        for(int i = 0;i  < pos - 2;i++){
-            temp1 = temp1->next;
-        }
-        temp2->next = temp1->next;
-        temp1->next = temp2;
 
+    node *temp1 = head;
+    /* code */
+    for (int i = 0; i < pos - 2; i++)
+    {
+        temp1 = temp1->next;
     }
-    
-    
-
-
-
+    temp2->next = temp1->next;
+    temp1->next = temp2;
 }
 
 void print()
@@ -50,19 +45,20 @@ void print()
     cout << "\n";
 }
 
-int main(){
+int main()
+{
     head = NULL;
-    insert(2,1);
-         
-    insert(3,2);
-        
-    insert(5,3);
-        
+    insert(2, 1);
+
+    insert(3, 2);
+
+    insert(5, 3);
+
     insert(9, 2);
-       
+
     insert(85, 2);
-       
+
     insert(32, 5);
-        print();
+    print();
     return 0;
 }
