@@ -1,0 +1,2 @@
+he row ";
+    cin>>n;
