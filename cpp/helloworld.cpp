@@ -1,5 +1,5 @@
 #include <iostream>
-using name  
+using namespace std;
 
 struct node
 {
