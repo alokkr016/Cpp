@@ -11,6 +11,7 @@ int main(){
     string str = "abcd";
     retverse(str);
     cout<<str;
+    cout<<str.length();
     return 0;
 
 }
