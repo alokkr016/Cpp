@@ -77,13 +77,20 @@ void print(){
     cout << "\n";
 }
 
+void deleteFromBeginning(){
+    node *temp = head;
+    head = temp->next;
+    delete temp;
+
+}
+
 
 
 int main(){
     head = NULL;
     int choice;
     while(1){
-    cout<<"what do you want to do\nPress 1 for inertion at beginning\nPress 2 for insertion at end\nPress 3 for insertion at any point\nPress 4 to display\nPress 5 to exit";
+    cout<<"what do you want to do\nPress 1 for inertion at beginning\nPress 2 for insertion at end\nPress 3 for insertion at any point\nPress 4 to display\nPress 5 to delete from beginning\nPress 6 to exit";
     cin>>choice;
     switch (choice)
     {
@@ -101,6 +108,9 @@ int main(){
         print();
         break;
     case 5:
+        deleteFromBeginning();
+        break;
+    case 6:
         exit(0);
     default:
         cout<<"No valid input";

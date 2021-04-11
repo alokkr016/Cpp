@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Question1",
+            "request": "launch",
+            "mainClass": "Question1",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemonstrationFileInputStream",
+            "request": "launch",
+            "mainClass": "DemonstrationFileInputStream",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch DemonstratinFileOutputstream",
+            "request": "launch",
+            "mainClass": "DemonstratinFileOutputstream",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch CommandLineInput",
+            "request": "launch",
+            "mainClass": "CommandLineInput",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyexceptionThrows",
+            "request": "launch",
+            "mainClass": "MyexceptionThrows",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "javapractice.Hello",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
             "name": "Launch Hello",
             "request": "launch",
             "mainClass": "javapractice.Hello",
@@ -36,7 +78,6 @@
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
-          
             ],
             "preLaunchTask": "C/C++: g++.exe build active file"
         }
