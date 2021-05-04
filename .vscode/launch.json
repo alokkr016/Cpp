@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFrame",
+            "request": "launch",
+            "mainClass": "MyFrame",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch HybridException",
+            "request": "launch",
+            "mainClass": "HybridException",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyApplet",
+            "request": "launch",
+            "mainClass": "MyApplet",
+            "projectName": "MyWorkSpace_d2046b69"
+        },
+        {
+            "type": "java",
             "name": "Launch Question1",
             "request": "launch",
             "mainClass": "Question1",
