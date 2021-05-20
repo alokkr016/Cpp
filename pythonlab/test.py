@@ -1,5 +1,4 @@
 
 a = int(input())
 b = int(input())
-c = a*b
-print(round(c))
+c = print(a*b)

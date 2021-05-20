@@ -4,5 +4,7 @@
     "files.associations": {
         "iostream": "cpp"
     },
-    "jupyter.jupyterServerType": "local"
+    "jupyter.jupyterServerType": "local",
+    "editor.tabCompletion": "on",
+    "kite.enableOptionalCompletionsTriggers": true
 }

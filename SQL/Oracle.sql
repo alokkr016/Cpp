@@ -26,3 +26,18 @@ WHERE 3 <=
     WHERE a.salesman_id = b.salesman_id);
 
 select * from incentive;
+
+
+
+create view newyorkcity
+as select distinct name 
+from elitesalesman a 
+where a.city = 'New York';
+
+select * from newyorkcity;
+
+create view idnamecity
+as select salesman_id, name, city
+from elitesalesman;
+
+select * from idnamecity;

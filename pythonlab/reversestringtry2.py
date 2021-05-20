@@ -16,4 +16,7 @@ def dhandigarh(word):
 while(1):
     print("please enter your word")
     word = input()
-    dhandigarh(word)
+
+    
+    
+    
