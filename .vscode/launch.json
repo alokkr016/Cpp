@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch IsoSceles",
+            "request": "launch",
+            "mainClass": "IsoSceles",
+            "projectName": "Workspace_c63b214a"
+        },
+        {
+            "type": "java",
             "name": "Launch MyexceptionThrows",
             "request": "launch",
             "mainClass": "MyexceptionThrows",
