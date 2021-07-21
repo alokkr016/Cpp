@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class IsoSceles{
     public static void main(String[] args){
-        Scanner var = new Scanner(System.in);
-        int n = var.nextInt();
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
         int i = 1;
         while (i <= n){
             int space = 1;

@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReturnSubstring",
+            "request": "launch",
+            "mainClass": "ReturnSubstring",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch runner2",
+            "request": "launch",
+            "mainClass": "runner2",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch runner",
+            "request": "launch",
+            "mainClass": "runner",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
             "name": "Launch DecimalToBinary",
             "request": "launch",
             "mainClass": "DecimalToBinary",

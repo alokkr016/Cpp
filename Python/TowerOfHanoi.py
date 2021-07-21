@@ -2,10 +2,8 @@ import random, pdb, time
 from tkinter import *
 
 global time_of_sleep
-time_of_sleep = 1 # time in seconds for next Animation... YOU CAN CHANGE IT as per YOUR convenience )
+time_of_sleep = 1 
 
-'''time in seconds for next Animation can be given in global variable "time_of_sleep"
-YOU CAN CHANGE IT as per YOUR convenience )'''
 
 class visual_tower:
 	def __init__(self,n,p0,p1,p2,p3):
@@ -90,9 +88,9 @@ class hanoi:
 		time.sleep(time_of_sleep)
 
 def tower_of_hanoi(num_of_Disks, src,  inter1, inter2, dest):
-	#pdb.set_trace()
+	
 	global H,time_of_sleep
-	time_of_sleep=1 # change it as per your convenience
+	time_of_sleep=1 
 	if(num_of_Disks %2 == 1 and num_of_Disks < 2):
 		print("\nTransfer Disc from\n",src.name," >> TO >> ",dest.name)
 		dest.push(src.pop())
@@ -122,7 +120,7 @@ def tower_of_hanoi(num_of_Disks, src,  inter1, inter2, dest):
 		tower_of_hanoi(num_of_Disks-2,inter1,src,inter2,dest)
 
 def main():
-	n=eval(input("No. Of Disks : ")) # no. of disks
+	n=eval(input("No. Of Disks : ")) 
 	global H
 	H = hanoi(n)
 	tower_of_hanoi(n,H.p1,H.p2,H.p3,H.p4)
@@ -132,4 +130,5 @@ def TOI(N):
 	H = hanoi(N) # creating object of hanoi class :)
 	tower_of_hanoi(N,H.p1,H.p2,H.p3,H.p4)
 	
-if __name__=="__main__":main()
+if __name__=="__main__":
+	main()
