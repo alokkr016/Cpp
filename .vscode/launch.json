@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Returnsubsetofanarray",
+            "request": "launch",
+            "mainClass": "Returnsubsetofanarray",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintKeypad",
+            "request": "launch",
+            "mainClass": "PrintKeypad",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReturnKeypad",
+            "request": "launch",
+            "mainClass": "ReturnKeypad",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintSubstring",
+            "request": "launch",
+            "mainClass": "PrintSubstring",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
             "name": "Launch ReturnSubstring",
             "request": "launch",
             "mainClass": "ReturnSubstring",
