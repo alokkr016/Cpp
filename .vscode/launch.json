@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Runner3",
+            "request": "launch",
+            "mainClass": "Runner3",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
             "name": "Launch Returnsubsetofanarray",
             "request": "launch",
             "mainClass": "Returnsubsetofanarray",
