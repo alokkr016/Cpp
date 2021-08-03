@@ -1,4 +1,4 @@
-import jdk.javadoc.internal.doclets.formats.html.resources.standard;
+
 
 public class ReturnSubstring {
     public static String[] substring(String str){

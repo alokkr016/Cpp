@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "ReverseLinkedList",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Runner15",
+            "request": "launch",
+            "mainClass": "Runner15",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Runner5",
+            "request": "launch",
+            "mainClass": "Runner5",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AppendLastNToFirst$Runner5",
+            "request": "launch",
+            "mainClass": "AppendLastNToFirst$Runner5",
+            "projectName": "Workspace_27a2050a"
+        },
+        {
+            "type": "java",
             "name": "Launch Runner3",
             "request": "launch",
             "mainClass": "Runner3",
