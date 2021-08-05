@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountWords",
+            "request": "launch",
+            "mainClass": "CountWords",
+            "projectName": "CommonWorkspace_9c85079f"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseLinkedList",
             "request": "launch",
             "mainClass": "ReverseLinkedList",
