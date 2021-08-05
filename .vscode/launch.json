@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwoDarray",
+            "request": "launch",
+            "mainClass": "TwoDarray",
+            "projectName": "CommonWorkspace_9c85079f"
+        },
+        {
+            "type": "java",
             "name": "Launch CountWords",
             "request": "launch",
             "mainClass": "CountWords",
